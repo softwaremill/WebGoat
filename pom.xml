@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>3.5.6</version>
+    <version>3.5.16</version>
   </parent>
 
   <groupId>org.owasp.webgoat</groupId>
@@ -94,7 +94,6 @@
     <!-- Use UTF-8 Encoding -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <thymeleaf.version>3.1.2.RELEASE</thymeleaf.version>
     <waittimeForServerStart>60</waittimeForServerStart>
     <webdriver.version>6.3.2</webdriver.version>
     <webgoat.context>/WebGoat</webgoat.context>
@@ -103,9 +102,10 @@
     <webjars-locator-core.version>0.59</webjars-locator-core.version>
     <webwolf.context>/WebWolf</webwolf.context>
     <webwolf.port>9090</webwolf.port>
+    <jackson-bom.version>2.21.5</jackson-bom.version>
     <wiremock.version>3.13.1</wiremock.version>
     <xml-resolver.version>1.2</xml-resolver.version>
-    <xstream.version>1.4.5</xstream.version>
+    <xstream.version>1.4.20</xstream.version>
     <!-- do not update necessary for lesson -->
     <zxcvbn.version>1.9.0</zxcvbn.version>
   </properties>
